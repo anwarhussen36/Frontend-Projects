@@ -1,0 +1,9 @@
+h1 {
+  color: red;
+}
+.font{
+  font-size: 5rem;
+  color: blueviolet;
+  background-color: aqua;
+  width: fit-content;
+}
