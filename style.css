@@ -1,0 +1,70 @@
+*{
+    margin: 0px;
+    padding: opx;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: black;
+}
+.game-container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items:center;
+    gap: 10px;
+}
+.cars{
+    width: 320px;
+    height: 350px;
+    background-color: rgb(121, 14, 148);
+    flex-direction: column;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 10px;
+}
+.back{
+    width: 70px;
+    height: 60px;
+    transform-style: preserve-3d;
+    transform: rotate(0deg);
+}
+.reset:active,.back:active{
+    transform: rotate(20deg);
+}
+.title{
+    background-color: white;
+    font-family: monospace;
+    font-size: 3rem;
+    font-weight: bold;
+    border-radius:10px;
+    padding: 5px;
+    margin: 10px;
+}
+.live{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(0, 195, 255);
+}
+.found{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(0, 195, 255);
+}
+.result{
+    color: white;
+       
+}
+.reset{
+    background-color: rgb(15, 61, 100);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+}
