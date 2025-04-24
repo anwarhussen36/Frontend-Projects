@@ -1,5 +1,5 @@
 ✅ To-Do List App
-Another project included in this portfolio is a To-Do List App — a simple yet functional task management app built using React.js.
+Another project included in this practice is a To-Do List App — a simple yet functional task management app built using React.js.
 
 🧰 Features
 ✅ Add new tasks with ease
