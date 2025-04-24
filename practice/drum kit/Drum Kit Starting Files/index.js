@@ -61,7 +61,7 @@ for(var i=0; i<noOfDrum; i++){
 
 
 
-
+        //optional
      //this.style.color='white';
 
         //var audi=new Audio('sounds/crash.mp3');
